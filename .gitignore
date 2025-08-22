@@ -1,0 +1,23 @@
+# Visual Studio 
+.vs/ 
+*.suo 
+*.user 
+*.userosscache 
+*.sln.docstates 
+ 
+# Build results 
+[Bb]in/ 
+[Oo]bj/ 
+[Ll]og/ 
+ 
+# ASP.NET artifacts 
+wwwroot/lib/ 
+wwwroot/dist/ 
+ 
+# Docker 
+**/bin/ 
+**/obj/ 
+docker-compose.override.yml 
+ 
+# Node.js 
+node_modules/ 
